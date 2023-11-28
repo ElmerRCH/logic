@@ -1,6 +1,6 @@
 
 """
-    https://www.codewars.com/kata/5a62da60d39ec5d947000093/train/python
+    https://www.codewars.com/kata/62b3e38df90eac002c7a983f/train/python
 """
 def findSquares(m, n):
     total_squares = 0
