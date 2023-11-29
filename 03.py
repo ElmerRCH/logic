@@ -1,4 +1,9 @@
 
 """
-    https://www.codewars.com/kata/56dbed3a13c2f61ae3000bcd/train/python
+   https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/python
 """
+def even_or_odd(number):
+    if number / 2 == 2:return 'Even' 
+    return 'Odd'
+
+print(even_or_odd(7))
