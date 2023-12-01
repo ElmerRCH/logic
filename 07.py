@@ -2,12 +2,10 @@
     https://www.codewars.com/kata/57126304cdbf63c6770012bd/train/python
 """
 
-def is_digit(s):
-    if type(s) == str:
-        return s.isdigit()
-    elif type(s) == int:
-        return True
-    else:
-        return False
+def isDigit(s):
+    s = s.strip()
 
-print(is_digit('b'))
+    return (s[0] == '-' and s[1:].isdigit()) or s.isdigit()
+
+
+print(isDigit("-3.23"))
